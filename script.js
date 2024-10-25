@@ -15,6 +15,7 @@ const getSum = () => {
 	const td = document.createElement('td');
 	td.innerText = totalPrice;
 	td.setAttribute('colspan',2);
+	td.id = 'ans';
 	td.style.textAlign='center';
 	tr.append(td);
 
