@@ -1,2 +1,17 @@
-
 /* Your CSS Code here. */
+table {
+	text-align: left;
+}
+tr th {
+	background-color: cyan;
+}
+tr td {
+	background-color: teal;
+	color: #fff;
+}
+th, td {
+	padding: 7px;
+	border-radius: 5px;
+}
+
+
